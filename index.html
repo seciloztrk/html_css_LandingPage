@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJE</title>
+    <meta name="keyword" content="PROJE">
+    <meta name="description" content="PROJE">
+
+    <!--fonts google-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" media="(max-width:768px)"  href="css/tablet.css"> <!-- sadece 768px'in altına düşünce bu css kullanılacak-->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+    
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small"> Seçil Öztürk</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+
+    <section id="home">
+
+        <img src="fotom.jpeg" alt="my foto">
+
+        <div class="name text-center" >
+            <h2 class="heading-big">Seçil Öztürk</h2>
+            <p>Computer Engineer</p>
+        </div>
+
+        <a href="#courses" class="btn btn-primary">Kurslara Git </a>
+
+
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+
+        <div class="items">
+
+            <article class="item">
+
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf İçi Eğitim</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo.</p>
+
+            </article>
+
+            <article class="item">
+
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo.</p>
+
+            </article>
+
+            <article class="item">
+
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo.</p>
+
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+       
+        <h3 class="text-center heading-medium">Kurslar</h3>
+
+        <div class="container">
+            <div class="courses">
+                <!--course1-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="data:image/png;base64,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" alt="">
+                        <span>%30 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Java Kursu
+                        </div>
+                        <div class="description">
+                           Java Geliştirme Kursu | Sıfırdan Java Öğrenin
+                        </div>
+                        <div class="instructor">
+                            Seçil Öztürk | Bilgisayar Mühendisi
+                        </div>
+                        <div class="rating">
+                            4.3 | (120 oylama)
+                        </div>
+
+                    </div>
+                </div>
+                 <!--course2-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="data:image/png;base64,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" alt="">
+                        <span>%30 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            JavaScript Kursu
+                        </div>
+                        <div class="description">
+                            JavaScript Geliştirme Kursu | Sıfırdan JavaScript Öğrenin
+                        </div>
+                        <div class="instructor">
+                            Seçil Öztürk | Bilgisayar Mühendisi
+                        </div>
+                        <div class="rating">
+                            4.6 | (120 oylama)
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+
+        <div class="contact-form">
+            <form >
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control"  name="name" id="name" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control"  name="email" id="email" placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>
